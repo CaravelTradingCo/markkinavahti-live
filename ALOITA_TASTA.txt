@@ -1,0 +1,19 @@
+MARKKINAVAHTI LIVE – OIKEAT HINNAT, EI DEMOA
+==========================================
+
+Tämä paketti EI SISÄLLÄ keinotekoisia markkina-arvoja.
+
+Sovellus tarvitsee julkaisupaikan, joka ajaa kurssihaut päivittäin.
+Suositeltu tapa: GitHub Pages + GitHub Actions (ei Pythonia Windowsiin).
+
+1) Luo GitHubiin tyhjä julkinen repository: markkinavahti-live
+2) Kopioi koko tämän kansion sisältö repositoryyn, myös piilotettu .github-kansio.
+3) Settings -> Pages -> Source: GitHub Actions
+4) Actions -> Markkinavahti LIVE – päivitä ja julkaise -> Run workflow
+5) Sivun osoite näkyy Settings -> Pages.
+
+HUOM: Jos avaat index.html:n suoraan Windowsissa ENNEN julkaisua,
+siinä lukee 'Ei live-dataa'. Tämä on tarkoituksellista, koska keksittyjä
+lukuja ei näytetä oikeina kursseina.
+
+Lisäohjeet, lähteet ja rajoitukset: README.md.
